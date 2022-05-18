@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/currency-exchange/">
       <QueryClientProvider client={queryClient}>
         <App />
         <Toaster />
